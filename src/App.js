@@ -1,26 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
+import MainPage from './MainPage/MainPage';
+import 'rbx/index.css';
+//import './HeaderBar.css';
+import { Navbar, Container } from 'rbx';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  NavLink
+} from "react-router-dom";
 import './App.css';
+import HeaderBar from './HeaderBar/HeaderBar'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <React.Fragment>
+      <Router>
+        <HeaderBar />
+        <Switch>
+          <Route path='/projects'>
+          </Route>
+          <Route path='/'>
+            <MainPage />
+          </Route>
+        </Switch>
+      </Router>
+    </ React.Fragment>
+  )
 }
+
+
+
+
 
 export default App;

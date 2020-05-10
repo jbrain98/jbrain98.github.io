@@ -1,0 +1,39 @@
+p {
+    font-size: 18px;
+}
+
+b{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.divider{
+    background-color: #F45B69;
+    margin:0px;
+}
+
+.download{
+    background-color: #F45B69;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    line-height: 1.0;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.center{
+    margin: auto;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
