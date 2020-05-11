@@ -1,5 +1,7 @@
 import React from 'react';
 import MainPage from './MainPage/MainPage';
+import ProjectPage from './Projects/ProjectPage';
+import FABPage from './Projects/projectPages/FAB'
 import 'rbx/index.css';
 //import './HeaderBar.css';
 import { Navbar, Container } from 'rbx';
@@ -19,6 +21,10 @@ const App = () => {
         <HeaderBar />
         <Switch>
           <Route path='/projects'>
+            <ProjectPage />
+          </Route>
+          <Route path='/FAB'>
+            <FABPage />
           </Route>
           <Route path='/'>
             <MainPage />

@@ -1,0 +1,61 @@
+p {
+    font-size: 14px;
+}
+
+p.heading{
+    font-size:  50px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+    p {
+      font-size: 14px;
+    }
+  }
+
+b{
+    font-size: 25px;
+    padding: 0px;
+    color: #4a4a4a;
+}
+
+.divider{
+    background-color: #F45B69;
+    margin:0px;
+}
+
+
+.center{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.right{
+    text-align: left;
+}
+
+.left{
+    text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+    .left {
+        text-align: left;
+    }
+  }
+
+.prjpic{
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.prjpicb{
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+

@@ -18,10 +18,10 @@ const MainPage = () => {
                 justify="center"
                 alignItems="stretch"
                 spacing={3}>
-                <Grid item xs={2} sm={2}>
+                <Grid item xs={6} sm={2}>
                     <img src={Julia} />
                 </Grid>
-                <Grid item xs={12} sm={6}>
+                <Grid item xs={10} sm={6}>
                     <Paper elevation={0}>
                         <p>
                             <b>Hi, my name is Julia Brain!</b>
@@ -45,12 +45,12 @@ const MainPage = () => {
                 justify="center"
                 alignItems="stretch"
                 spacing={3}>
-                <Grid item xs={2} sm={2} className="center">
+                <Grid item xs={6} sm={2} className="center">
                     <Button className="center">
                         <Link to="/Brain_Julia_2019.pdf" target="_blank" className="download" download>Download Resume</Link>
                     </Button>
                 </Grid>
-                <Grid item xs={12} sm={6} >
+                <Grid item xs={10} sm={6} >
 
                     <hr className="divider" />
                     <p>
