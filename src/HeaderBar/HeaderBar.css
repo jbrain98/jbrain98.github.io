@@ -6,7 +6,7 @@
 
 .title{
     color: inherit;
-    font-size:40px;
+    font-size:30px;
     font-family: 'Arbutus Slab', serif
 }
 
@@ -14,7 +14,7 @@
 	color: inherit;
 	font: inherit;
 	font-family: 'Times New Roman', serif;
-	font-size:25px
+	font-size:20px
 }
 
 a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, .navbar-link.is-active {

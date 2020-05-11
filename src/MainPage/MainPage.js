@@ -26,6 +26,7 @@ const MainPage = () => {
                         <p>
                             <b>Hi, my name is Julia Brain!</b>
                             <br />
+                            <br />
                     I am currently a senior at Northwestern majoring in computer science
                 with a focus in UI/UX. I am also pursuing both a minor in English Literature and the Segal
                 Design Certificate. I am passionate about user experience, and there is no better feeling

@@ -3,6 +3,7 @@ import { Grid, Paper, Divider, Button, Card, CardContent, CardMedia, CardActions
 import "./ProjectPage.css"
 import FABmainpic from "./projectPics/FAB/FABmainpic.png"
 import SplashPage from "./projectPics/Shareable/SplashPage.PNG"
+import AnimeClublogo from "./projectPics/NUAnime/logo.PNG"
 import {
     BrowserRouter as Router,
     Switch,
@@ -12,7 +13,7 @@ import {
 } from "react-router-dom";
 
 
-const projectList = [{ src: FABmainpic, title: "FAB" }, { src: SplashPage, title: "Shareable" }, { src: FABmainpic, title: "FAB" }]
+const projectList = [{ src: FABmainpic, title: "FAB" }, { src: SplashPage, title: "Shareable" }, { src: AnimeClublogo, title: "NUanime" }]
 
 const ProjectPage = () => {
     return (
