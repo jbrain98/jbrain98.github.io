@@ -64,6 +64,7 @@ const FABPage = () => {
                 <b>Crowdsourcing Fashion</b>
                 <p>How might one use a phone app to figure out what one should wear to their next big work presentation?
                         <br />
+                        <br />
                         This was the question posed to my team by a team of graduate design students.
                          Together, the developer and client teams worked on a phone app that allowed users to post two outfit choices
                           and vote on other’s posts so users get help
@@ -82,7 +83,7 @@ const FABPage = () => {
                     post was the most needed so we could gather feedback on user interest in the app.
                     </p>
                 <br />
-                <b>Gamification"</b>
+                <b>Adding Gamification"</b>
                 <br />
                 <p>
                     The clients decided after inital user testing that we needed to add a gamification element to the app

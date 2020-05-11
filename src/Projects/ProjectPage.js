@@ -2,6 +2,7 @@ import React from 'react';
 import { Grid, Paper, Divider, Button, Card, CardContent, CardMedia, CardActions } from '@material-ui/core';
 import "./ProjectPage.css"
 import FABmainpic from "./projectPics/FAB/FABmainpic.png"
+import SplashPage from "./projectPics/Shareable/SplashPage.PNG"
 import {
     BrowserRouter as Router,
     Switch,
@@ -11,7 +12,7 @@ import {
 } from "react-router-dom";
 
 
-const projectList = [{ src: FABmainpic, title: "FAB" }, { src: FABmainpic, title: "FAB" }, { src: FABmainpic, title: "FAB" }]
+const projectList = [{ src: FABmainpic, title: "FAB" }, { src: SplashPage, title: "Shareable" }, { src: FABmainpic, title: "FAB" }]
 
 const ProjectPage = () => {
     return (
@@ -22,7 +23,7 @@ const ProjectPage = () => {
             alignItems="stretch"
             spacing={3}>
             <Grid item xs={10} >
-                <b>Projects</b>
+                <p className="heading">Projects</p>
                 <hr className="divider" />
             </Grid>
             <Grid container item xs={10} direction="row"
@@ -47,7 +48,7 @@ const Project = (project) => {
                 <img src={project.project.src} class="prjpic" />
                 <CardActions className="center">
                     <Button className="center">
-                        <Link to={project.project.title}>
+                        <Link to={project.project.title} className="link">
                             <b>{project.project.title}</b>
                         </Link>
                     </Button>
