@@ -140,7 +140,7 @@ const Partnership = () => (
         <br />
         I worked on a development team with five other coders.
         We communicated with the client team on a bi-weekly basis for five weeks while developing this app.
-        While they were responsible for the ideation, research, and styling, my team was responsible for all
+        While the clients were responsible for the ideation, research, and styling, my team was responsible for all
         the front and back end coding. Along the way, we had to
         complete burnup charts and provide feedback to the clients to
         ensure that expectations were being met.
@@ -168,9 +168,10 @@ const Takeaways = () => (
             My development team was able to form expectations for both ourselves
             and the client team what was going to be done for each sprint and how long each change would take by using a Burn Up chart.
             I also developed more skill in communicating with a client team with no coding experience. 
-            I think a lot of time student projects are very self-designed
+            Student projects are often self-designed
             and driven. However, in a business setting there are also cases where it is developer’s
-            responsibility to implement another’s design and it is important to be able to do both.
+            responsibility to implement another’s design. Because of this, it is important to develop the skills too
+            be able to implement designs from others as well as your own. 
     </p>
 )
 
@@ -182,7 +183,7 @@ const Payoff = () => (
             My team worked in week-long agile sprints during development.
             For each sprint, we primarily focused on one user storyline.
             The first week we focused on the so-called “payoff” screen using canned data.
-            We determined - based off the storyboard we created - that the results screen for a
+            Based on the storyboard we created, we determined that the results screen for a
             post was the most needed so we could gather feedback on user interest in the app.
     </p>
 )
@@ -207,7 +208,7 @@ const MyImpact = () => (
         <b>My Impact</b>
         <br />
             I focused mainly on the backend for this project, although I did some front-end as well.
-            I was primarily responsible for the database and I took the lead in creating the database schema.
+            I was primarily responsible for the database and lead the creation of the database schema.
             In the first sprints I wrote code to pull canned data I had uploaded to the database to display on
              the results and user profile pages. After testing to make sure canned data was being pulled and displayed correctly,
             I implemented the functions that switched it to real, updating data. This included coding it so
