@@ -45,16 +45,16 @@ const Project = (project) => {
     console.log(project)
     return (
         <Grid item xs={10} sm={5} md={4}>
-            <Card className="center">
-                <img src={project.project.src} class="prjpic" />
-                <CardActions className="center">
-                    <Button className="center">
-                        <Link to={project.project.title} className="link">
-                            <b>{project.project.title}</b>
-                        </Link>
-                    </Button>
-                </CardActions>
-            </Card>
+            <Link to={project.project.title} className="link">
+                <Card className="center">
+                    <img src={project.project.src} class="prjpic" />
+                    <CardActions className="center">
+                        <Button className="center">
+                            <b className="link">{project.project.title}</b>
+                        </Button>
+                    </CardActions>
+                </Card>
+            </Link>
         </Grid>
     )
 

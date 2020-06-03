@@ -7,6 +7,9 @@ import Contact from "../projectPics/NUAnime/Contact.PNG"
 import Art from "../projectPics/NUAnime/Art.PNG"
 import Photos from "../projectPics/NUAnime/Photos.PNG"
 import Landing2 from "../projectPics/NUAnime/Landing2.PNG"
+import Contact2 from "../projectPics/NUAnime/Contact2.PNG"
+import Art2 from "../projectPics/NUAnime/Art2.PNG"
+import Photos2 from "../projectPics/NUAnime/Photos2.PNG"
 
 const NUAnimePage = () => {
     return (
@@ -19,34 +22,74 @@ const NUAnimePage = () => {
                 <p className="heading">NUanime</p>
                 <hr className="divider" />
             </Grid>
+            <Grid item >
+                <img src={SplashPage} className="prjpic" />
+            </Grid>
+            <Grid item xs={10} sm={7} >
+                <Description />
+                <Technologies />
+            </Grid>
+            <Grid item xs={9}  >
+                <Takeaways />
+            </Grid>
+            <Grid item xs={9}  >
+                <MainPage />
+            </Grid>
+            <Grid item xs={9}  >
+                <img src={Landing2} />
+            </Grid>
+            <Grid item xs={9}  >
+                <ArtPage />
+            </Grid>
+            <Grid item xs={9}  >
+                <img src={Art2} />
+            </Grid>
+            <Grid item xs={9}  >
+                <PhotoPage />
+            </Grid>
+            <Grid item xs={9}  >
+                <img src={Photos2} />
+            </Grid>
+            <Grid item xs={9}  >
+                <img src={Contact2} />
+            </Grid>
+        </Grid>
+    )
+}
+
+const NUAnimePage2 = () => {
+    return (
+        <Grid
+            container
+            direction="row"
+            justify="center"
+            spacing={5}>
+            <Grid item xs={10} >
+                <p className="heading">NUanime</p>
+                <hr className="divider" />
+            </Grid>
             <Grid item xs={10} sm={5} className="left">
-                <img src={SplashPage} className="prjpic" />                
+                <img src={SplashPage} className="prjpic" />
                 <Technologies />
                 <MainPage />
                 <br />
-                <img src={Art} className="prjpicb" />  
+                <img src={Art} className="prjpicb" />
                 <PhotoPage />
                 <br />
-                <img src={Contact} className="prjpicb" /> 
+                <img src={Contact} className="prjpicb" />
 
             </Grid>
             <Grid item xs={10} sm={5} className="right">
                 <Description />
                 <br />
-                <img src={Landing} className="prjpicb" />  
+                <img src={Landing} className="prjpicb" />
                 <ArtPage />
                 <br />
-                <img src={Photos} className="prjpicb" /> 
+                <img src={Photos} className="prjpicb" />
                 <Takeaways />
-                
-                
-                
             </Grid>
-
         </Grid>
-
     )
-
 }
 /*
 <br />
@@ -69,7 +112,7 @@ const Description = () => (
             <br />
                         When I was a sophomore, the club president asked me if I could code a new club website to help
                         increase club engagement. The previous site was several years old and created in WordPress, and we
-                        both wanted to start fresh with a more modern website.This was the first redesign. My senior year 
+                        both wanted to start fresh with a more modern website.This was the first redesign. My senior year
                         as both president and tech chair of the club I redesigned and recoded it again utilizing my increased coding
                         ability. You can find the website at <a href="nuanime.club">nuanime.club</a>. It is hosted on Amazon Webservices.
         </p>
@@ -81,9 +124,9 @@ const MainPage = () => (
         <br />
         <b>Landing page </b> <br />
         I first outlined the architecture of the website, which I ended up determining to be the same as the inital website. In
-        my first redesign, I coded using pure HTML, JavaScript, and CSS. This meant my code was very repetitive and complicated. When I 
+        my first redesign, I coded using pure HTML, JavaScript, and CSS. This meant my code was very repetitive and complicated. When I
         redesigned and recoded it, I made the UI cleaner and more fitting with current web conventions. In addition, I componentized the
-        code using React so edits could be easily made to, for example, the list of exec members. 
+        code using React so edits could be easily made to, for example, the list of exec members.
     </p>
 )
 
@@ -113,9 +156,9 @@ const Takeaways = () => (
     <p>
         <br />
         <b>Takeaways</b> <br />
-        I am appreciative of the opportunity to create a currently deployed website from scratch during my college years. To do so to help a club
+        I am appreciative of the opportunity to create a currently deployed website from scratch during my college years. To help a club
         that meant so much to me and helped me form so many lasting friendships made this experience even more impactful. I also was able to see
-        how much I had grown as a coder between my sophomore and senior years. My goal is to later make the site easily maintainable and mutatable 
+        how much I had grown as a coder between my sophomore and senior years. My goal is to later make the site easily maintainable and mutatable
         by even non-coders so it can be used for years to come.
     </p>
 )
